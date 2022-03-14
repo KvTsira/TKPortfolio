@@ -105,6 +105,85 @@ main {
 /* left navigation End */
 
 
+.title {
+  display: flex;
+}
+
+.title h2{
+  padding: 40px 20px 20px 15px;
+  position: relative;
+  text-align: left;
+  /* border-right: 3px solid black; */
+}
+
+.work-pics {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-work {
+  border: 3px solid rgb(49, 65, 166);
+  color: rgb(16, 43, 219);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all .5s;
+  font-size: 14.5px;
+}
+
+.my-work:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.my-work:hover {
+  background-color: lightgray;
+  
+}
+
+.my-work div {
+  background-color: lightblue;
+  padding: 5px 5px;
+}
+
+.my-work h3 {
+  font-size: 23px;
+}
+
+.run-buddy {
+  background-image: url("../images/run-buddy.jpg");
+  background-size: auto 153%;
+}
+
+.placeholder-1 {
+  background-image: url("../images/TravelBlog.png");
+  background-size: auto 190%;
+}
+
+.placeholder-2 {
+  background-image: url("../images/WorkdayScheduler.png");
+  background-size: auto 190%;
+}
+
+.placeholder-3 {
+  background-image: url("../images/led-wall.jpg") ;
+  background-size: auto 120%;
+}
+
+.placeholder-4 {
+  background-image: url("../images/pastel-puzzle.jpg");
+  background-size: auto 120%;
+}
+
 /* Hero Content Start*/
 .hero{
 background-image: url("../images/background2.jpg");
@@ -214,7 +293,7 @@ margin-bottom: 0px;
 }
 /* Grid End*/
 
-/* Work link images Start*/
+/* Work link images Start
 .surfProject {
   background-image: url("../images/surf.jpg");
 }
@@ -237,7 +316,7 @@ margin-bottom: 0px;
 
 .runBuddyProject {
   background-image: url("../images/run-buddy.jpg"); 
-}
+} */
 
 /* Work link images End*/
 
